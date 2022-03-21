@@ -1,0 +1,32 @@
+#main_header {
+  background:url(../images/header_bg.jpg);
+  max-width:100%;
+  background-position:center;
+  background-size:cover;
+}
+
+#main_headline {
+  background-color: #ffffffa3;
+  padding-top:50px;
+  padding-bottom:50px;
+  max-width: 1080px;
+  margin:0 auto;
+  border: solid 1px #ffffffa3;
+  border-radius: 3px;
+}
+.main_headline_p {
+  font-weight:bold;
+}
+.card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52
+}
+#brewery-collection {
+  margin: 2rem;
+}
