@@ -28,4 +28,4 @@ Some time in 2022 - SPA increased to all of Texas and eventually all of US
 
 [Thank you to Open Brewery DB for providing the API!](https://www.openbrewerydb.org/)
 
-[Bootstrap CSS](https://getbootstrap.com/docs/3.4/)
+[Bootstrap CSS](https://getbootstrap.com/)
