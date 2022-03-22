@@ -10,15 +10,15 @@ function getAllBreweries (){
 }
 
 
-//function to create cards from fetch data. This adds the html elements to the specific section of the html. I probably need to add the form here as well.
+//function to create cards from fetch data. This adds the html elements to the specific section of the html. I probably need to add the form here as well. I found code to not display the phone number p tag if the object value for that key was blank for a specific brewery. Pretty cool!
 function renderOneBrewery(brewery){
   let card = document.createElement('div')
   card.className = 'card'
   card.innerHTML = `
   <p>${brewery.name}</p>
   <p>Brewery Type: ${brewery.brewery_type}</p>
-  <p>Address: ${brewery.street} ${brewery.address_2} ${brewery.address_3} ${brewery.city} ${brewery.state} ${brewery.postal_code}</p>
-  <p>Phone number: ${brewery.phone}</p>
+  <p>Address: ${brewery.street} ${brewery.city} ${brewery.state} ${brewery.postal_code}</p> 
+  ${brewery.phone ? `<p>Phone Number: ${brewery.phone}</p>` : ""} 
   <div class="checkbutton>CHECKBOX BUTTON GOES HERE</div>
   <div class="rating">RATING CAN GO HERE FOR NOW</div>
   <div class="input-group mb-3">
