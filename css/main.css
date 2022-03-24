@@ -18,15 +18,32 @@
   font-weight:bold;
 }
 .card {
-  text-align: center;
   border: grey solid 1px;
   padding: 1rem;
-  width: 15rem;
+  width: 25rem;
   height: 25rem;
   display: inline-grid;
-  margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52
+  margin: 1rem 1rem;
 }
 #brewery-collection {
   margin: 2rem;
+}
+
+.input-group.mb-3 {
+  margin-top: 1rem;
+}
+
+.card-title {
+text-align: center;
+}
+
+.check {
+  margin: 0 auto;
+  padding-bottom:20px;
+  padding-top:10px;
+}
+.fa-check {
+  margin-left:10px;
+  font-size:24px !important;
+  padding: 10px 10px 10px 10px;
 }
