@@ -17,16 +17,19 @@
 .main_headline_p {
   font-weight:bold;
 }
-.card {
+.brewery-name {
   border: grey solid 1px;
   padding: 1rem;
-  width: 25rem;
-  height: 25rem;
+  width: 12rem;
+  height: 11rem;
+  text-align:center;
+  font-size:15px !important;
   display: inline-grid;
   margin: 1rem 1rem;
 }
-#brewery-collection {
+.brewery-collection {
   margin: 2rem;
+  text-align: center;
 }
 
 .input-group.mb-3 {
@@ -39,11 +42,37 @@ text-align: center;
 
 .check {
   margin: 0 auto;
-  padding-bottom:20px;
-  padding-top:10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+  border: 1px solid #000;
+  cursor: pointer;
 }
 .fa-check {
   margin-left:10px;
   font-size:24px !important;
   padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.faces {
+  font-size:40px;
+  margin-right:20px;
+color: black;
+  cursor: pointer;
+}
+.rating-system {
+  text-align: center;
+}
+.faces-filled {
+  background-color: gold;
+    border-radius: 20px;
+}
+form#comment-form {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.add-brewery {
+  text-align: center;
+  margin-top:20px;
 }
