@@ -20,6 +20,7 @@
 
 <!-- Font Awesome Icon Library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/2f5dd5b5d5.js" crossorigin="anonymous"></script>
 
 
 
@@ -41,6 +42,56 @@
     </div>
   </section>
 
+  <div class="album bg-light">
+    <div class="container">
+<div class ="add-brewery">
+  <form class="add-brewery-form">
+    <h3>Don't see a brewery on this list? Add it!</h3>
+    <input
+      type="text"
+      name="breweryname"
+      value=""
+      placeholder="Enter brewery name"
+      class="input-text"
+    /><br>
+    <label for="brewery-type">Brewery Type</label>
+    <select id="add-type-dropdown" name="brewerytype">
+      <option value="Planning">Planning</option>
+      <option value="Micro">Micro</option>
+      <option value="Contract">Contract</option>
+      <option value="Brewpub">Brewpub</option>
+      <option value="Regional">Regional</option>
+    </select>
+<br>
+    <input
+      type="submit"
+      name="submit"
+      value="Add Brewery"
+      class="submit"
+    />
+  </form>
+
+  <label for="select-brewery-type">Filter breweries by type:</label>
+  <select id="filtertype" name="filterBreweryType">
+    <option value="all">All Brewery Types</option>
+    <option value="Planning">Planning</option>
+      <option value="Micro">Micro</option>
+      <option value="Contract">Contract</option>
+      <option value="Brewpub">Brewpub</option>
+      <option value="Regional">Regional</option>
+  </select>
+
+
+
+
+</div>
+
+
+      </div>
+      </div>
+
+
+
   <div class="album py-5 bg-light">
     <div class="container">
 
@@ -50,6 +101,10 @@
 
   </div>
 
+  <div class ="brewery-info">
+    
+  </div>
+
 
   </div>
   </div>
@@ -57,17 +112,12 @@
 </main>
 
 <footer class="text-muted py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-  
-  </div>
+
 </footer>
 
 
     
-    <script type="text/javascript" src="src/index.js"></script>
+    <script type="text/javascript" src="src/index2.js"></script>
 
 
   </body>
