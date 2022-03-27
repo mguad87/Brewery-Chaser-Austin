@@ -6,17 +6,13 @@ Brewery Chaser Austin is a SPA for keeping track of Austin Breweries that you've
 
 Users can:
 
-Keep track of breweries they've visited in the Austin area by using checkbox functionality
+Keep track of breweries they've visited in the Austin area
 
-Leave comments about the brewery on the brewery "card"
+Add a brewery to the list that was not in the API
 
-Rate each Brewery
+sort breweries by brewery type
 
-Upload an IMG URL to use for each brewery
-
-Sort breweries by alphabetical order
-
-The list of breweries for the Austin are are being pulled from [Open Brewery DB](https://api.openbrewerydb.org/breweries?by_city=austin)
+The list of breweries for the Austin are being pulled from [Open Brewery DB](https://api.openbrewerydb.org/breweries?by_city=austin)
 
 ## Roadmap
 
