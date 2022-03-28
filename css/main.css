@@ -4,7 +4,6 @@
   background-position:center;
   background-size:cover;
 }
-
 #main_headline {
   background-color: #ffffffa3;
   padding-top:50px;
@@ -20,7 +19,7 @@
 .brewery-name {
   border: grey solid 1px;
   padding: 1rem;
-  width: 12rem;
+  width: 18rem;
   height: 11rem;
   text-align:center;
   font-size:15px !important;
@@ -31,15 +30,9 @@
   margin: 2rem;
   text-align: center;
 }
-
-.input-group.mb-3 {
-  margin-top: 1rem;
-}
-
 .card-title {
 text-align: center;
 }
-
 .check {
   margin: 0 auto;
   padding: 5px 5px 5px 5px;
@@ -47,32 +40,37 @@ text-align: center;
   border: 1px solid #000;
   cursor: pointer;
 }
-.fa-check {
-  margin-left:10px;
-  font-size:24px !important;
-  padding: 10px 10px 10px 10px;
-  cursor: pointer;
-}
 
-.faces {
-  font-size:40px;
-  margin-right:20px;
-color: black;
-  cursor: pointer;
-}
-.rating-system {
-  text-align: center;
-}
-.faces-filled {
-  background-color: gold;
-    border-radius: 20px;
-}
+
 form#comment-form {
   padding-top: 20px;
   margin: 0 auto;
 }
-
 .add-brewery {
   text-align: center;
-  margin-top:20px;
+  padding-top:20px;
+}
+.filter-brewery-dropdown {
+  text-align: center;
+}
+.brewery-form {
+  border: 1px solid #000;
+  margin-right: 35%;
+  margin-left: 35%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.input-text {
+  margin-bottom:10px;
+}
+.submit {
+  margin-top:10px;
+}
+.changed {
+  opacity: 0;
+  transition: opacity 2000ms;
+}
+.checkmark-hidden {
+  font-size:35px;
+  color:green;
 }
