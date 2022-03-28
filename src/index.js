@@ -27,11 +27,11 @@ window.onload = function(){ //I put my eventlisteners in this window onload func
 
 //Initially I did not have this in a function, but I put this first event listener in a function so I could call it for my second event listner. This one controls the ability to click on whether someone has been to the brewery or not.
 function breweryChecker(){ 
-  const beenHere = document.querySelectorAll(".check") 
+  let beenHere = document.querySelectorAll(".check") 
   beenHere.forEach(beenHere => beenHere.addEventListener('click', changeCheckText)) 
   function changeCheckText(event) { 
-    event.target.innerHTML = "Yes I have!"
-    event.target.className = "changed"
+    event.target.classList = "checkmark-hidden"
+    event.target.innerHTML = `✓`
   }
 }
 
